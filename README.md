@@ -6,6 +6,7 @@ This project is a Python-based Inventory Management System. It features a Flask 
 * **Flask Routing:** API routes built for `GET`, `POST`, `PATCH`, and `DELETE` requests.
 * **CRUD Operations:** Full ability to view, add, update, and remove inventory items.
 * **External API Integration:** Connects to Open Food Facts to fetch product names and brands automatically.
+* **Testing:** Includes unit tests to ensure the API functions as expected.
 
 ---
 
@@ -52,3 +53,9 @@ In a second terminal, navigate to the project folder, activate the virtual envir
 python cli.py
 ```
 Follow the on-screen menu prompts to interact with the application.
+
+# Testing
+To run the tests, run the following command in the project directory:
+```bash
+pytest
+```
