@@ -15,36 +15,39 @@ This project is a Python-based Inventory Management System. It features a Flask 
 ```bash
 git clone <your-repo-url>
 cd inventory_management
+```
 
-2. Create and activate a virtual environment
+Create and activate a virtual environment
 
 Mac/Linux:
 
-Bash
+```bash
 python3 -m venv venv
 source venv/bin/activate
+```
 Windows:
-
-Bash
+```bash
 python -m venv venv
 venv\Scripts\activate
+```
 3. Install Dependencies
-
-Bash
+```bash
 pip install flask requests pytest
+```
 How to Run the Application
 This application requires two separate terminal windows to run simultaneously.
 
 Terminal 1: Start the Server
 In the first terminal, ensure your virtual environment is active and start the Flask API:
 
-Bash
+```bash
 python app.py
+```
 The server will run locally on http://127.0.0.1:5000
 
 Terminal 2: Run the CLI
 In a second terminal, navigate to the project folder, activate the virtual environment, and run the interface:
 
-Bash
+```bash
 python cli.py
-
+```
