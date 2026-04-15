@@ -3,10 +3,10 @@
 This project is a Python-based Inventory Management System. It features a Flask RESTful API backend, a command-line interface (CLI) frontend, and integration with the external Open Food Facts API to automatically retrieve product details via barcode.
 
 ## Features
-* **Flask Routing:** API routes built for `GET`, `POST`, `PATCH`, and `DELETE` requests.
-* **CRUD Operations:** Full ability to view, add, update, and remove inventory items.
-* **External API Integration:** Connects to Open Food Facts to fetch product names and brands automatically.
-* **Testing:** Includes unit tests to ensure the API functions as expected.
+Flask Routing:** API routes built for `GET`, `POST`, `PATCH`, and `DELETE` requests.
+CRUD Operations:** Full ability to view, add, update, and remove inventory items.
+External API Integration:** Connects to Open Food Facts to fetch product names and brands automatically.
+Testing:** Includes unit tests to ensure the API functions as expected.
 
 ---
 
@@ -33,12 +33,12 @@ venv\Scripts\activate
 ```
 3. Install Dependencies
 ```bash
-pip install flask requests pytest
+pip freeze > requirements.txt
 ```
-How to Run the Application
+# How to Run the Application
 This application requires two separate terminal windows to run simultaneously.
 
-Terminal 1: Start the Server
+# Terminal 1: Start the Server
 In the first terminal, ensure your virtual environment is active and start the Flask API:
 
 ```bash
@@ -46,7 +46,7 @@ python app.py
 ```
 The server will run locally on http://127.0.0.1:5000
 
-Terminal 2: Run the CLI
+# Terminal 2: Run the CLI
 In a second terminal, navigate to the project folder, activate the virtual environment, and run the interface:
 
 ```bash
