@@ -33,7 +33,7 @@ venv\Scripts\activate
 ```
 3. Install Dependencies
 ```bash
-pip freeze > requirements.txt
+pip install -r requirements.txt
 ```
 # How to Run the Application
 This application requires two separate terminal windows to run simultaneously.
